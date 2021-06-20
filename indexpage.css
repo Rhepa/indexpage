@@ -4,7 +4,6 @@
 }
 
 body{
-   margin: 100px; 
   height: 100%;
   font-family: 'Roboto Slab', serif;
   
@@ -15,4 +14,19 @@ body{
   margin: auto;
   background-color: #f7f1de;
   border:  20px solid #f7f1de;
+}
+
+.cover1, .endcover1, .iframe1, .iframe2, .iframe3, .iframe4, .iframe4-1, .iframe5{
+  width:100%;
+}
+
+.frame1, .frame2, .frame4, .frame4-1, .frame5{
+  height: 500px;
+  box-sizing: border-box;
+  border:  10px solid white;
+  background-color: white;
+  margin: auto;
+  position:relative;
+  border-radius: 20px; 
+  animation: fadein 1s ease-in;
 }
