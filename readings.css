@@ -12,6 +12,10 @@ body{
 .content{
   max-width: 700px;
   margin: auto;
-  background-color: #f7f1de;
-  border:  20px solid #f7f1de;
+  background-color: #def2f1;
+  border:  20px solid #def2f1;
+  color: #2b7a78;
+}
+
+  border-top: 1px solid white;
 }
