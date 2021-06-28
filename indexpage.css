@@ -60,26 +60,25 @@ top: 400px;
 
 /*CLOUDS*/
 .cloud {
-  
+   box-sizing: border-box;
   animation: float 7s ease-in-out infinite;
   animation-direction: alternate;
   background-color: #f58f7c;
-  top: -100px;
-  left: 200px;
+ 
 }
 .cloud2 {
+   box-sizing: border-box;
    animation: float 13s ease-in-out infinite;
   animation-direction: alternate; 
   background-color: #f58f7c;
-  top: -110px;
-  left: 300px;
+
 }
 .cloud3 {
+   box-sizing: border-box;
   animation: float 6s ease-in-out infinite;
   animation-direction: alternate; 
   background-color: #f58f7c;
-  top: 200px;
-  left: 800px;
+
 }
 .curve {
   background-color: #f58f7c;
