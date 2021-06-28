@@ -31,7 +31,7 @@ width: 1000px;
 background-color: #3aafa9;
 border: 10px solid #feffff;
  margin: auto;
-  /*animation: fadein  10s ease-in;*/
+/*  animation: fadein  10s ease-in;*/
   /*animation-fill-mode: forwards;*/
 }
 
@@ -155,9 +155,17 @@ top: 400px;
   background-color: #3aafa9;
   box-sizing: border-box;
 }
+
+.road1{
+  height: 50px;
+  background-color: grey;
+  border: 20px;
+  box-sizing: border-box;
+}
 .road{
   height: 300px;
   background-color: #17252a;
+  border: 20px;
   box-sizing: border-box;
 }
 /*END SKY*/
@@ -165,7 +173,6 @@ top: 400px;
 @keyframes fadeout{
    0% {opacity: 1;}
    100% {opacity: 0;}
- 
 }
   @keyframes fadein {
    0% {opacity: 0;}
@@ -187,42 +194,29 @@ transform: translateX(-50px);
   position: relative;
   top: 60px;
 bottom: 50px;
-display: inline-block;
 }
-.flagtext{
-position: relative;
-  top: -40px;
-left: 20px;
- }
- .selftext{
-position: relative;
-  top:-240px;
-left: 100px;
- }
-/*END FLAGSTORE*/
 
-/*BOOKSTORE*/
-.bookstore{
-  position: relative;
-  top: 60px;
-left: -200px;
-}
-.booktext{
-position: relative;
-  top: -40px;
-left: 20px;
- }
- .text{
-position: relative;
-  top:-240px;
-left: 100px;
- }
+/*START billboard*/
  .imgboard {
+  position: relative;
   width: 20%;
   height: 40%;
+ left: 750px;
+  margin-top: -920px;
 }
-/*END BOOKSTORE*/
+/*end board*/
 
+/*START FRAME*/
+.iframe1{
+  height: 100px;
+  width: 150px;
+  border:  10px solid #2b7a78;
+  background-color: white;
+  position:relative;
+  border-radius: 20px; 
+top: 120px;
+ left: 550px;
+}
 /*BOARD*/
 .board{
   position: relative;
@@ -230,20 +224,22 @@ left: 100px;
 left: -200px;
 }
 
-
 /*START CAR*/
 .car{
   position: relative;
-  top: -10px;
-  left: 600px;
+  top: 10px;
+  left: 0px;
 bottom: 50px;
 }
 .car:hover {
   animation: vroom 4s ease-in-out;
 }
 @keyframes vroom {
-  0% {opacity: 0;}
-   100% {opacity: 1;}
+  0%{left: 0px;}
+  50% {left: 600px;}
+  75% {left: 600px; opacity: 0;}
+  100% {left: 0px; opacity: 1;}
+
 }
 /*END CAR*/
 
@@ -264,8 +260,8 @@ bottom: 50px;
 }
 /*START FLAGS*/
 .button1 {
-  top: -18px;
-  left: -760px;
+  top: -50px;
+  left: -155px;
   background-color: none; 
   color: #17252a; 
 }
@@ -277,8 +273,8 @@ bottom: 50px;
 
 /*START SELF PORTRAIT*/
 .button2 {
-   top: -215px;
-  left: -760px;
+  top: -245px;
+  left: -170px;
   background-color: none; 
   color: #2b7a78; 
 }
@@ -290,8 +286,6 @@ bottom: 50px;
 
 /*START TYPOGRAPGY*/
 .button3 {
-   top: 0px;
-  left: -760px;
   background-color: none; 
   color: #2b7a78; 
 }
@@ -303,12 +297,18 @@ bottom: 50px;
 
 /*RESOURCES*/
 .button4 {
-   top: -215px;
-  left: -760px;
-  background-color: none; 
+ background-color: none; 
   color: #2b7a78; 
 }
 .button4:hover {
+  background-color: #17252a;
+  color: #f58f7c;
+}
+.button5 {
+  background-color: none; 
+  color: #2b7a78; 
+}
+.button5:hover {
   background-color: #17252a;
   color: #f58f7c;
 }
@@ -329,15 +329,12 @@ a:hover {
 }
 /*END LINKS/BUTTONS*/
 
-.iframe1{
-  height: 150px;
-  width: 200px;
-  box-sizing: border-box;
-  border:  10px solid #2b7a78;
-  background-color: white;
-  margin: auto;
-  position:relative;
-  border-radius: 20px; 
-  top: -900px;
-  left: 530px;
+
+.hide {
+  display: none;
+}
+    
+.inspect:hover + .hide {
+  display: block;
+  margin-left: -800px;
 }
