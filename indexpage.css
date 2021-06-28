@@ -1,12 +1,12 @@
 * { 
   margin: 0;
   padding: 0;
-   box-sizing: border-box;
+   
 }
 
 body{
     height: 100%;
-background-color: #3aafa9;
+background-color: #17252a;
   
 }
 /*CONTENT*/
@@ -60,7 +60,7 @@ top: 400px;
 
 /*CLOUDS*/
 .cloud {
-  position: absolute;
+  
   animation: float 7s ease-in-out infinite;
   animation-direction: alternate;
   background-color: #f58f7c;
@@ -68,15 +68,13 @@ top: 400px;
   left: 200px;
 }
 .cloud2 {
-  position: absolute;
-  animation: float 13s ease-in-out infinite;
+   animation: float 13s ease-in-out infinite;
   animation-direction: alternate; 
   background-color: #f58f7c;
-  top: 0px;
-  left: 800px;
+  top: -110px;
+  left: 300px;
 }
 .cloud3 {
-  position: absolute;
   animation: float 6s ease-in-out infinite;
   animation-direction: alternate; 
   background-color: #f58f7c;
@@ -130,17 +128,23 @@ top: 400px;
 /*END CLOUDS*/
 
 
-/*ROAD*/
-.road{
-  max-width: 1000px;
-  height: 200px;
-  top: 200px;
-  background-color: grey;
- 
+/*START SKY*/
+.sky{
+  height: 300px;
+  background-color: #2b7a78;
+  box-sizing: border-box;
 }
-
-
-
+.sky2{
+  height: 200px;
+  background-color: #3aafa9;
+  box-sizing: border-box;
+}
+.sky3{
+  height: 150px;
+  background-color: #def2f1;
+  box-sizing: border-box;
+}
+/*END SKY*/
 /*ANIMATION*/
 @keyframes fadeout{
    0% {opacity: 1;}
@@ -151,14 +155,14 @@ top: 400px;
    0% {opacity: 0;}
    100% {opacity: 1;}
  }
- @keyframes float {
+/* @keyframes float {
   0% {
-    transform: translateX(1000);
+    transform: translateX(50);
   }
     100%{
-transform: translateX(-1000px);
+transform: translateX(-50px);
     }
-}
+}*/
 /*END ANIMATION*/
 
 
