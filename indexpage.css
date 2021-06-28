@@ -230,6 +230,7 @@ left: -200px;
   top: 10px;
   left: 0px;
 bottom: 50px;
+animation: shake 0.5s infinite;
 }
 .car:hover {
   animation: vroom 4s ease-in-out;
@@ -239,7 +240,13 @@ bottom: 50px;
   50% {left: 600px;}
   75% {left: 600px; opacity: 0;}
   100% {left: 0px; opacity: 1;}
-
+}
+@keyframes shake {
+ 0% {transform: translateX(0);}
+  25%{transform: translateX(-2px) rotate(1deg);}
+  50% {transform: translateX(3px);}
+  80% {transform: translateX(2px)rotate(1deg);}
+  100% {transform: translateX(0) rotate(-1deg);}
 }
 /*END CAR*/
 
@@ -286,6 +293,8 @@ bottom: 50px;
 
 /*START TYPOGRAPGY*/
 .button3 {
+   top: -430px;
+  left: -255px;
   background-color: none; 
   color: #2b7a78; 
 }
@@ -297,6 +306,8 @@ bottom: 50px;
 
 /*RESOURCES*/
 .button4 {
+   top: -165px;
+  left: 35px;
  background-color: none; 
   color: #2b7a78; 
 }
@@ -305,7 +316,9 @@ bottom: 50px;
   color: #f58f7c;
 }
 .button5 {
-  background-color: none; 
+  top: -610px;
+  left: -40px;
+  background-color: #2b7a78; 
   color: #2b7a78; 
 }
 .button5:hover {
