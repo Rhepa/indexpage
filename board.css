@@ -6,6 +6,7 @@
 body{
   height: 100%;
   font-family: 'Roboto Slab', serif;
+  
    
 }
 
@@ -17,5 +18,3 @@ body{
   color: #2b7a78;
 }
 
-  border-top: 1px solid white;
-}

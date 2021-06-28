@@ -1,0 +1,23 @@
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100%;
+  font-family: 'Roboto Slab', serif;
+  background-color: #17252a; 
+  
+}
+
+.content{
+  max-width: 700px;
+  margin: auto;
+  /*background-color: #def2f1;*/
+  background-image: url(https://images.unsplash.com/photo-1586074299757-dc655f18518c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+  border-image:  url(https://images.unsplash.com/photo-1586074299757-dc655f18518c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+  color: #2b7a78;
+  border: 10px solid transparent;
+  padding: 15px;
+}
+

@@ -6,13 +6,12 @@
 audio{
   width: 80px;
   height: 100px;
-  opacity: 0;
+  opacity: 10;
 }
 
 body{
 height: 100%;
-background-color: #17252a;
-  
+background-color: #17252a; 
 }
 img {
   width: 40%;
@@ -35,8 +34,8 @@ width: 1000px;
 background-color: #3aafa9;
 border: 10px solid #feffff;
  margin: auto;
-/*  animation: fadein  10s ease-in;*/
-  /*animation-fill-mode: forwards;*/
+/* animation: fadein  10s ease-in;
+  animation-fill-mode: forwards;*/
 }
 /*START RAIN*/
 .rain{
@@ -70,10 +69,10 @@ border: 10px solid #feffff;
 .title{
     position: relative;
 text-align: center;
-top: 400px;
-  animation: fadeout  7s ease-in;
-  animation-fill-mode: forwards;
-  font-size: 60px;
+top: 300px;
+ /* animation: fadeout  15s ease-in;*/
+   animation-fill-mode: forwards;
+  font-size: 100px;
   font-family:FuturaPT, sans-serif ;
   color: white;
 }
@@ -81,21 +80,28 @@ top: 400px;
 /*CLOUDS*/
 .cloud {
    box-sizing: border-box;
-  animation: float 3s ease-in-out infinite;
+  animation: float 15s ease-in-out infinite;
   animation-direction: alternate;
-  background-color: #f58f7c;
+  
+  margin-bottom: 100px;
+  left: 70px;
+
 }
 .cloud2 {
    box-sizing: border-box;
-   animation: float 13s ease-in-out infinite;
+   animation: float2 8s ease-in-out infinite;
   animation-direction: alternate; 
-  background-color: #f58f7c;
+ 
+  top: 50px;
+  left: 100px;
 }
 .cloud3 {
-   box-sizing: border-box;
-  animation: float 6s ease-in-out infinite;
+  box-sizing: border-box;
+  animation: float 8s ease-in-out infinite;
   animation-direction: alternate; 
-  background-color: #f58f7c;
+  
+  margin-top: 200px;
+  left: 100px;
 }
 .curve {
   background-color: #def2f1;
@@ -143,7 +149,23 @@ top: 400px;
 }
  @keyframes float {
   0% {
-    transform: translateX(200);
+    transform: translateX(150px);
+  }
+    100%{
+transform: translateX(-30px);
+    }
+}
+ @keyframes float2 {
+  0% {
+    transform: translateX(150px);
+  }
+    100%{
+transform: translateX(-400px);
+    }
+}
+ @keyframes float3 {
+  0% {
+    transform: translateX(-50px);
   }
     100%{
 transform: translateX(-500px);
@@ -154,7 +176,6 @@ transform: translateX(-500px);
   to   { top: 1000px; }
 }
 /*END CLOUDS*/
-
 
 /*START SKY*/
 .sky{
@@ -221,13 +242,6 @@ bottom: 50px;
 top: 120px;
  left: 550px;
 }
-/*BOARD*/
-.board{
-  position: relative;
-  top: 60px;
-left: -200px;
-}
-
 /*START CAR*/
 .car{
   position: relative;
@@ -319,9 +333,12 @@ animation: shake 0.5s infinite;
   background-color: #17252a;
   color: #f58f7c;
 }
+/*END RESOURCES*/
+
+/*START IFRAME*/
 .button5 {
   top: -610px;
-  left: -40px;
+  left: 0px;
   background-color: #2b7a78; 
   color: #2b7a78; 
 }
@@ -329,8 +346,32 @@ animation: shake 0.5s infinite;
   background-color: #17252a;
   color: #f58f7c;
 }
+/*END IFRAME*/
 
-/*END RESOURCES*/
+/*START BOARD*/
+.button6 {
+  top: -180px;
+  left: 160px;
+  background-color: #2b7a78; 
+  color: #2b7a78; 
+}
+.butto6:hover {
+  background-color: #17252a;
+  color: #f58f7c;
+}
+/*CSS WEB POSTER*/
+.button7 {
+  top: -120px;
+  left: -20px;
+  height: 20px;
+  background-color: none; 
+  color: #2b7a78; 
+}
+.button7:hover {
+  background-color: #f58f7c;
+
+}
+/*END BOARD*/
 
 /*START FONTS ANIMATION*/
 /*END FONTS ANIMATION*/
@@ -354,5 +395,5 @@ a:hover {
     
 .inspect:hover + .hide {
   display: block;
-  margin-left: -800px;
+  
 }
