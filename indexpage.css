@@ -313,12 +313,10 @@ animation: shake 0.5s infinite;
 .button3 {
    top: -430px;
   left: -255px;
+  height: 30px;
+  width: 60px;
   background-color: none; 
   color: #2b7a78; 
-}
-.button3:hover {
-  background-color: #17252a;
-  color: #f58f7c;
 }
 /*END TYPO*/
 
@@ -361,8 +359,8 @@ animation: shake 0.5s infinite;
 }
 /*CSS WEB POSTER*/
 .button7 {
-  top: -120px;
-  left: -20px;
+  top: -125px;
+  left: -80px;
   height: 20px;
   background-color: none; 
   color: #2b7a78; 
@@ -371,8 +369,8 @@ animation: shake 0.5s infinite;
   background-color: #f58f7c;
 }
 .button8 {
-  top: -60px;
-  left: -70px;
+  top: -65px;
+  left: -130px;
   height: 20px;
   background-color: none; 
   color: #2b7a78; 
@@ -380,6 +378,7 @@ animation: shake 0.5s infinite;
 .button8:hover {
   background-color: #f58f7c;
 }
+
 /*END BOARD*/
 
 /*START FONTS ANIMATION*/
