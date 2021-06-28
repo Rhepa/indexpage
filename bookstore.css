@@ -2,42 +2,24 @@
   margin: 0;
   padding: 0;
 }
-
 body{
   height: 100%;
-  font-family: 'Roboto Slab', serif;
- background-color: #3aafa9;
-
-
+  background-color: #17252a; 
 }
-/*
+img {
+  height: 60%;
+  width: 600px;
+}
 .content{
+  width: 600px;
+  border: 10px solid #feffff;
   margin: auto;
-  background-color: #3aafa9;
-  border:  20px solid #3aafa9;
-  position: relative;
-
-}*/
-
-.cover1, .endcover1, .iframe1, .iframe2, .iframe3, .iframe4, .iframe4-1, .iframe5{
-  width:100%;
-}
-
-.frame1, .frame2, .frame4, .frame4-1, .frame5{
-  height: 500px;
-  box-sizing: border-box;
-  border:  10px solid white;
-  background-color: white;
-  margin: auto;
-  position:relative;
-  border-radius: 20px; 
-  animation: fadein 1s ease-in;
 }
 
 .button {
+  position: relative;
   border: none;
-  color: white;
-  padding: 16px 32px;
+  padding: 5px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -47,14 +29,74 @@ body{
   border-radius: 20px;
   font-family: nimbus-sans, sans-serif;
   font-size: 18px; 
-
 }
+
 .button1 {
-  background-color: #feffff; 
-  color: #17252a; 
+
+  background-color: none; 
+  color: #f58f7c; 
 }
 .button1:hover {
   background-color: #f58f7c;
   color: #def2f1;
 }
 
+.button2 {
+  top: -295px;
+  left: -170px;
+  background-color: none; 
+  color: #17252a;  
+}
+.button2:hover {
+  background-color: #17252a;
+  color: #f58f7c;
+}
+.button3 {
+  top: -265px;
+  left: 0px;
+  background-color: none; 
+  color: #17252a;  
+}
+.button3:hover {
+  background-color: #17252a;
+  color: #f58f7c;
+}
+
+#mydiv {
+  position: absolute;
+/*  z-index: 9;*/
+  background-color: #f1f1f1;
+  text-align: center;
+  box-sizing: border-box;
+  top: 200px;
+  left: 300px;
+}
+#mydivheader {
+  padding: 10px;
+  width: 200px;
+  height: 300px;
+  cursor: move;
+ /* z-index: 10;*/
+  background-color: #2196F3;
+  color: #fff;
+}
+
+#mydiv2 {
+  position: absolute;
+/*  z-index: 9;*/
+  background-color: #f1f1f1;
+  text-align: center;
+  box-sizing: border-box;
+  top: 800px;
+  left: 300px;
+}
+
+#mydivheader2 {
+  padding: 10px;
+  width: 200px;
+  height: 300px;
+  cursor: move;
+ /* z-index: 10;*/
+  background-color: #2196F3;
+  color: #fff;
+}
