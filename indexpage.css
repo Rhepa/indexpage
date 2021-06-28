@@ -11,11 +11,11 @@ background-color: #3aafa9;
 }
 /*CONTENT*/
 .content{
-/*max-width: 1000px;*/
-background-color: grey;
+max-width: 1000px;
+/*background-color: #17252a;*/
+border: 5px solid #17252a;
  margin: auto;
-   
-  animation: fadein  10s ease-in;
+  /*animation: fadein  10s ease-in;*/
   /*animation-fill-mode: forwards;*/
 }
 /*START RAIN*/
@@ -53,7 +53,7 @@ text-align: center;
 top: 400px;
   animation: fadeout  7s ease-in;
   animation-fill-mode: forwards;
-  font-size: 200px;
+  font-size: 60px;
   font-family:FuturaPT, sans-serif ;
   color: white;
 }
@@ -88,7 +88,6 @@ top: 400px;
   position: absolute;
   z-index: 0;
 }
-
 .curve:hover{
   background-color: white;
   animation: rain infinite;
@@ -130,6 +129,18 @@ top: 400px;
 }
 /*END CLOUDS*/
 
+
+/*ROAD*/
+.road{
+  max-width: 1000px;
+  height: 200px;
+  top: 200px;
+  background-color: grey;
+ 
+}
+
+
+
 /*ANIMATION*/
 @keyframes fadeout{
    0% {opacity: 1;}
@@ -144,11 +155,17 @@ top: 400px;
   0% {
     transform: translateX(1000);
   }
-
     100%{
-transform: translateX(-1000px)
+transform: translateX(-1000px);
     }
 }
+/*END ANIMATION*/
+
+
+
+
+
+
 
 .button {
   border: none;
