@@ -20,11 +20,15 @@ h2{
   position:relative;
   font-size: 18px;
 }
+h3{
+  font-size: 18px;
+  text-align: center;
+  font-family: FuturaPT,sans-serif;
+}
 /*CONTENT*/
 .content{
 width: 1000px;
 background-color: #3aafa9;
-
 border: 10px solid #feffff;
  margin: auto;
   /*animation: fadein  10s ease-in;*/
@@ -198,7 +202,7 @@ left: 100px;
 /*END FLAGSTORE*/
 
 /*BOOKSTORE*/
-.booktore{
+.bookstore{
   position: relative;
   top: 60px;
 left: -200px;
@@ -213,7 +217,19 @@ position: relative;
   top:-240px;
 left: 100px;
  }
+ .imgboard {
+  width: 20%;
+  height: 40%;
+}
 /*END BOOKSTORE*/
+
+/*BOARD*/
+.board{
+  position: relative;
+  top: 60px;
+left: -200px;
+}
+
 
 /*START CAR*/
 .car{
@@ -221,15 +237,13 @@ left: 100px;
   top: -10px;
   left: 600px;
 bottom: 50px;
-
 }
-
 .car:hover {
   animation: vroom 4s ease-in-out;
 }
 @keyframes vroom {
-0% { transform: translateX(50);}
-100% {}
+  0% {opacity: 0;}
+   100% {opacity: 1;}
 }
 /*END CAR*/
 
@@ -316,8 +330,8 @@ a:hover {
 /*END LINKS/BUTTONS*/
 
 .iframe1{
-    height: 150px;
-    width: 200px;
+  height: 150px;
+  width: 200px;
   box-sizing: border-box;
   border:  10px solid #2b7a78;
   background-color: white;
@@ -326,5 +340,4 @@ a:hover {
   border-radius: 20px; 
   top: -900px;
   left: 530px;
-  
 }
