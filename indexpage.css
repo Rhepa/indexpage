@@ -1,7 +1,7 @@
 * { 
   margin: 0;
   padding: 0;
-   
+  
 }
 audio{
   width: 80px;
@@ -10,8 +10,8 @@ audio{
 }
 
 body{
-height: 100%;
-background-color: #17252a; 
+  height: 100%;
+  background-color: #17252a; 
 }
 img {
   width: 40%;
@@ -20,8 +20,8 @@ img {
 
 h2{ 
  font-family: FuturaPT,sans-serif;
-  position:relative;
-  font-size: 18px;
+ position:relative;
+ font-size: 18px;
 }
 h3{
   font-size: 18px;
@@ -30,12 +30,12 @@ h3{
 }
 /*CONTENT*/
 .content{
-width: 1000px;
-background-color: #3aafa9;
-border: 10px solid #feffff;
- margin: auto;
-/* animation: fadein  10s ease-in;
-  animation-fill-mode: forwards;*/
+  width: 1000px;
+  background-color: #3aafa9;
+  border: 10px solid #feffff;
+  margin: auto;
+  animation: fadein  10s ease-in;
+  animation-fill-mode: forwards;
 }
 /*START RAIN*/
 .rain{
@@ -67,11 +67,11 @@ border: 10px solid #feffff;
 
 /*INDEXPAGE*/
 .title{
-    position: relative;
-text-align: center;
-top: 300px;
- /* animation: fadeout  15s ease-in;*/
-   animation-fill-mode: forwards;
+  position: relative;
+  text-align: center;
+  top: 300px;
+  /* animation: fadeout  15s ease-in;*/
+  animation-fill-mode: forwards;
   font-size: 100px;
   font-family:FuturaPT, sans-serif ;
   color: white;
@@ -79,21 +79,21 @@ top: 300px;
 
 /*CLOUDS*/
 .cloud {
-   box-sizing: border-box;
-  animation: float 15s ease-in-out infinite;
-  animation-direction: alternate;
-  
-  margin-bottom: 100px;
-  left: 70px;
+ box-sizing: border-box;
+ animation: float 15s ease-in-out infinite;
+ animation-direction: alternate;
+ 
+ margin-bottom: 100px;
+ left: 70px;
 
 }
 .cloud2 {
-   box-sizing: border-box;
-   animation: float2 8s ease-in-out infinite;
-  animation-direction: alternate; 
+ box-sizing: border-box;
+ animation: float2 8s ease-in-out infinite;
+ animation-direction: alternate; 
  
-  top: 50px;
-  left: 100px;
+ top: 50px;
+ left: 100px;
 }
 .cloud3 {
   box-sizing: border-box;
@@ -115,7 +115,7 @@ top: 300px;
 .top1{
   width: 80px;
   height: 80px;
-   border-top-left-radius: 80px;
+  border-top-left-radius: 80px;
   border-top-right-radius: 80px;
   border-bottom-left-radius: 80px;
   margin-top: 200px;
@@ -141,35 +141,35 @@ top: 300px;
 .top4{
   width: 80px;
   height: 80px;
-   border-top-left-radius: 80px;
+  border-top-left-radius: 80px;
   border-top-right-radius: 80px;
   border-bottom-right-radius: 80px;
   margin-top: 200px;
   margin-left: 630px;
 }
- @keyframes float {
+@keyframes float {
   0% {
     transform: translateX(150px);
   }
-    100%{
-transform: translateX(-30px);
-    }
+  100%{
+    transform: translateX(-30px);
+  }
 }
- @keyframes float2 {
+@keyframes float2 {
   0% {
     transform: translateX(150px);
   }
-    100%{
-transform: translateX(-400px);
-    }
+  100%{
+    transform: translateX(-400px);
+  }
 }
- @keyframes float3 {
+@keyframes float3 {
   0% {
     transform: translateX(-50px);
   }
-    100%{
-transform: translateX(-500px);
-    }
+  100%{
+    transform: translateX(-500px);
+  }
 }
 @keyframes rain {
   from { top: 0; }
@@ -202,31 +202,32 @@ transform: translateX(-500px);
   box-sizing: border-box;
 }
 /*END SKY*/
+
 /*ANIMATION*/
 @keyframes fadeout{
-   0% {opacity: 1;}
-   100% {opacity: 0;}
+ 0% {opacity: 1;}
+ 100% {opacity: 0;}
 }
-  @keyframes fadein {
-   0% {opacity: 0;}
-   100% {opacity: 1;}
- }
+@keyframes fadein {
+ 0% {opacity: 0;}
+ 100% {opacity: 1;}
+}
 /*END ANIMATION*/
 
 /*FLAGSTORE*/
-
 .buildings{
   position: relative;
   top: 60px;
-bottom: 50px;
+  bottom: 50px;
 }
+/*END FLAG*/
 
 /*START billboard*/
- .imgboard {
+.imgboard {
   position: relative;
   width: 20%;
   height: 40%;
- left: 750px;
+  left: 750px;
   margin-top: -920px;
 }
 /*end board*/
@@ -239,16 +240,16 @@ bottom: 50px;
   background-color: white;
   position:relative;
   border-radius: 20px; 
-top: 120px;
- left: 550px;
+  top: 120px;
+  left: 550px;
 }
 /*START CAR*/
 .car{
   position: relative;
   top: 10px;
   left: 0px;
-bottom: 50px;
-animation: shake 0.5s infinite;
+  bottom: 50px;
+  animation: shake 0.5s infinite;
 }
 .car:hover {
   animation: vroom 4s ease-in-out;
@@ -261,10 +262,10 @@ animation: shake 0.5s infinite;
 }
 @keyframes shake {
  0% {transform: translateX(0);}
-  25%{transform: translateX(-2px) rotate(1deg);}
-  50% {transform: translateX(3px);}
-  80% {transform: translateX(2px)rotate(1deg);}
-  100% {transform: translateX(0) rotate(-1deg);}
+ 25%{transform: translateX(-2px) rotate(1deg);}
+ 50% {transform: translateX(3px);}
+ 80% {transform: translateX(2px)rotate(1deg);}
+ 100% {transform: translateX(0) rotate(-1deg);}
 }
 /*END CAR*/
 
@@ -285,10 +286,10 @@ animation: shake 0.5s infinite;
 }
 /*START FLAGS*/
 .button1 {
-  top: -50px;
+  top: -70px;
   left: -155px;
   background-color: none; 
-  color: #17252a; 
+  color: #f58f7c; 
 }
 .button1:hover {
   background-color: #f58f7c;
@@ -298,10 +299,10 @@ animation: shake 0.5s infinite;
 
 /*START SELF PORTRAIT*/
 .button2 {
-  top: -245px;
+  top: -265px;
   left: -170px;
   background-color: none; 
-  color: #2b7a78; 
+  color: #17252a;  
 }
 .button2:hover {
   background-color: #17252a;
@@ -311,21 +312,20 @@ animation: shake 0.5s infinite;
 
 /*START TYPOGRAPGY*/
 .button3 {
-   top: -430px;
-  left: -255px;
-  height: 30px;
-  width: 60px;
-  background-color: none; 
-  color: #2b7a78; 
+ top: -430px;
+ left: -255px;
+ height: 30px;
+ width: 60px;
+ background-color: none;   
 }
 /*END TYPO*/
 
 /*RESOURCES*/
 .button4 {
-   top: -165px;
-  left: 35px;
+ top: -185px;
+ left: 40px;
  background-color: none; 
-  color: #2b7a78; 
+ color: #17252a; 
 }
 .button4:hover {
   background-color: #17252a;
@@ -335,10 +335,10 @@ animation: shake 0.5s infinite;
 
 /*START IFRAME*/
 .button5 {
-  top: -610px;
+  top: -630px;
   left: 0px;
   background-color: #2b7a78; 
-  color: #2b7a78; 
+  color: #f58f7c; 
 }
 .button5:hover {
   background-color: #17252a;
@@ -349,59 +349,40 @@ animation: shake 0.5s infinite;
 /*START BOARD*/
 .button6 {
   top: -180px;
-  left: 160px;
-  background-color: #2b7a78; 
-  color: #2b7a78; 
+  left: 110px;
+  background-color: none; 
+  color: #f58f7c; 
 }
-.butto6:hover {
-  background-color: #17252a;
-  color: #f58f7c;
+.button6:hover {
+  background-color: #f58f7c;
+  color: #def2f1;
 }
+/*END BOARD*/
+
 /*CSS WEB POSTER*/
 .button7 {
   top: -125px;
   left: -80px;
   height: 20px;
   background-color: none; 
-  color: #2b7a78; 
+  color: #17252a; 
 }
 .button7:hover {
   background-color: #f58f7c;
 }
+/*END POSTER*/
+
+/*START UI*/
 .button8 {
   top: -65px;
   left: -130px;
   height: 20px;
   background-color: none; 
-  color: #2b7a78; 
+  color: #17252a; 
 }
 .button8:hover {
   background-color: #f58f7c;
 }
-
-/*END BOARD*/
-
-/*START FONTS ANIMATION*/
-/*END FONTS ANIMATION*/
-
-a:link {
-  color: red;
-  text-decoration: none;
-}
-a:visited {
-  color: #f58f7c;
-}
-a:hover {
-  color: #def2f1;
-}
+/*END UI*/
 /*END LINKS/BUTTONS*/
 
-
-.hide {
-  display: none;
-}
-    
-.inspect:hover + .hide {
-  display: block;
-  
-}
