@@ -25,7 +25,7 @@ h2{
 width: 1000px;
 background-color: #3aafa9;
 
-border: 20px solid #17252a;
+border: 10px solid #feffff;
  margin: auto;
   /*animation: fadein  10s ease-in;*/
   /*animation-fill-mode: forwards;*/
@@ -142,18 +142,18 @@ top: 400px;
 
 /*START SKY*/
 .sky{
-  height: 350px;
+  height: 450px;
   background-color: #2b7a78;
   box-sizing: border-box;
 }
 .sky2{
-  height: 10px;
+  height: 200px;
   background-color: #3aafa9;
   box-sizing: border-box;
 }
 .road{
-  height: 100px;
-  background-color: grey;
+  height: 300px;
+  background-color: #17252a;
   box-sizing: border-box;
 }
 /*END SKY*/
@@ -181,20 +181,64 @@ transform: translateX(-50px);
 
 .flagstore{
   position: relative;
-  top: 30px;
+  top: 60px;
 bottom: 50px;
+display: inline-block;
 }
 .flagtext{
-
 position: relative;
-  top: 30px;
-bottom: 50px;
+  top: -40px;
+left: 20px;
  }
+ .selftext{
+position: relative;
+  top:-240px;
+left: 100px;
+ }
+/*END FLAGSTORE*/
+
+/*BOOKSTORE*/
+.booktore{
+  position: relative;
+  top: 60px;
+left: -200px;
+}
+.booktext{
+position: relative;
+  top: -40px;
+left: 20px;
+ }
+ .text{
+position: relative;
+  top:-240px;
+left: 100px;
+ }
+/*END BOOKSTORE*/
+
+/*START CAR*/
+.car{
+  position: relative;
+  top: -10px;
+  left: 600px;
+bottom: 50px;
+
+}
+
+.car:hover {
+  animation: vroom 4s ease-in-out;
+}
+@keyframes vroom {
+0% { transform: translateX(50);}
+100% {}
+}
+/*END CAR*/
 
 .button {
+  position: relative;
+    top: -18px;
+  left: -760px;
   border: none;
-  color: white;
-  padding: 16px 32px;
+  padding: 5px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -204,18 +248,16 @@ bottom: 50px;
   border-radius: 20px;
   font-family: nimbus-sans, sans-serif;
   font-size: 18px; 
-top: 300px;
+
 }
 .button1 {
-  background-color: #feffff; 
+  background-color: none; 
   color: #17252a; 
 }
 .button1:hover {
   background-color: #f58f7c;
   color: #def2f1;
 }
-
-
 a:link {
   color: red;
   text-decoration: none;
