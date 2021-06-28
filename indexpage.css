@@ -13,18 +13,18 @@ img {
   width: 40%;
   height: 60%;
 }
+
 p{
-  font-size: 16px;
-  position:relative; 
-   box-sizing: border-box;
- 
+  box-sizing: border-box;
+  font-weight: 400;
+  position:relative;
 }
 /*CONTENT*/
 .content{
 max-width: 1000px;
 background-color: #3aafa9;
 
-border: 5px solid #17252a;
+border: 20px solid #17252a;
  margin: auto;
   /*animation: fadein  10s ease-in;*/
   /*animation-fill-mode: forwards;*/
@@ -181,9 +181,10 @@ transform: translateX(-50px);
 .flagstore{
   position: relative;
 }
-
 .flagtext{
-position: relative;
+   position: absolute;
+top: 100px;
+bottom: 50px;
  }
 
 .button {
