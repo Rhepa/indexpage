@@ -179,7 +179,7 @@ transform: translateX(-50px);
 
 /*FLAGSTORE*/
 
-.flagstore{
+.buildings{
   position: relative;
   top: 60px;
 bottom: 50px;
@@ -233,10 +233,9 @@ bottom: 50px;
 }
 /*END CAR*/
 
+/*LINKS/BUTTONS*/
 .button {
   position: relative;
-    top: -18px;
-  left: -760px;
   border: none;
   padding: 5px 15px;
   text-align: center;
@@ -248,9 +247,11 @@ bottom: 50px;
   border-radius: 20px;
   font-family: nimbus-sans, sans-serif;
   font-size: 18px; 
-
 }
+/*START FLAGS*/
 .button1 {
+  top: -18px;
+  left: -760px;
   background-color: none; 
   color: #17252a; 
 }
@@ -258,6 +259,50 @@ bottom: 50px;
   background-color: #f58f7c;
   color: #def2f1;
 }
+/*END FLAG*/
+
+/*START SELF PORTRAIT*/
+.button2 {
+   top: -215px;
+  left: -760px;
+  background-color: none; 
+  color: #2b7a78; 
+}
+.button2:hover {
+  background-color: #17252a;
+  color: #f58f7c;
+}
+/*END PORTRAIT*/
+
+/*START TYPOGRAPGY*/
+.button3 {
+   top: 0px;
+  left: -760px;
+  background-color: none; 
+  color: #2b7a78; 
+}
+.button3:hover {
+  background-color: #17252a;
+  color: #f58f7c;
+}
+/*END TYPO*/
+
+/*RESOURCES*/
+.button4 {
+   top: -215px;
+  left: -760px;
+  background-color: none; 
+  color: #2b7a78; 
+}
+.button4:hover {
+  background-color: #17252a;
+  color: #f58f7c;
+}
+/*END RESOURCES*/
+
+/*START FONTS ANIMATION*/
+/*END FONTS ANIMATION*/
+
 a:link {
   color: red;
   text-decoration: none;
@@ -268,4 +313,18 @@ a:visited {
 a:hover {
   color: #def2f1;
 }
+/*END LINKS/BUTTONS*/
 
+.iframe1{
+    height: 150px;
+    width: 200px;
+  box-sizing: border-box;
+  border:  10px solid #2b7a78;
+  background-color: white;
+  margin: auto;
+  position:relative;
+  border-radius: 20px; 
+  top: -900px;
+  left: 530px;
+  
+}
