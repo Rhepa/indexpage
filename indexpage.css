@@ -3,6 +3,11 @@
   padding: 0;
    
 }
+audio{
+  width: 80px;
+  height: 100px;
+  opacity: 0;
+}
 
 body{
 height: 100%;
@@ -14,8 +19,7 @@ img {
   height: 60%;
 }
 
-h2{
-  
+h2{ 
  font-family: FuturaPT,sans-serif;
   position:relative;
   font-size: 18px;
@@ -34,8 +38,11 @@ border: 10px solid #feffff;
 /*  animation: fadein  10s ease-in;*/
   /*animation-fill-mode: forwards;*/
 }
-
 /*START RAIN*/
+.rain{
+  opacity: 1;
+  top: 0px;
+}
 .drop {
   position: fixed;
 }
@@ -57,10 +64,6 @@ border: 10px solid #feffff;
   background-color: #aaa;
   animation: myanim 1s infinite linear;
 }
-@keyframes rain {
-  from { top: 0; }
-  to   { top: 1000px; }
-}
 /*END RAIN*/
 
 /*INDEXPAGE*/
@@ -78,24 +81,21 @@ top: 400px;
 /*CLOUDS*/
 .cloud {
    box-sizing: border-box;
-  animation: float 7s ease-in-out infinite;
+  animation: float 3s ease-in-out infinite;
   animation-direction: alternate;
   background-color: #f58f7c;
- 
 }
 .cloud2 {
    box-sizing: border-box;
    animation: float 13s ease-in-out infinite;
   animation-direction: alternate; 
   background-color: #f58f7c;
-
 }
 .cloud3 {
    box-sizing: border-box;
   animation: float 6s ease-in-out infinite;
   animation-direction: alternate; 
   background-color: #f58f7c;
-
 }
 .curve {
   background-color: #def2f1;
@@ -141,6 +141,18 @@ top: 400px;
   margin-top: 200px;
   margin-left: 630px;
 }
+ @keyframes float {
+  0% {
+    transform: translateX(200);
+  }
+    100%{
+transform: translateX(-500px);
+    }
+}
+@keyframes rain {
+  from { top: 0; }
+  to   { top: 1000px; }
+}
 /*END CLOUDS*/
 
 
@@ -178,14 +190,6 @@ top: 400px;
    0% {opacity: 0;}
    100% {opacity: 1;}
  }
-/* @keyframes float {
-  0% {
-    transform: translateX(50);
-  }
-    100%{
-transform: translateX(-50px);
-    }
-}*/
 /*END ANIMATION*/
 
 /*FLAGSTORE*/
@@ -325,6 +329,7 @@ animation: shake 0.5s infinite;
   background-color: #17252a;
   color: #f58f7c;
 }
+
 /*END RESOURCES*/
 
 /*START FONTS ANIMATION*/
