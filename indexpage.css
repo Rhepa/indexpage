@@ -369,7 +369,16 @@ animation: shake 0.5s infinite;
 }
 .button7:hover {
   background-color: #f58f7c;
-
+}
+.button8 {
+  top: -60px;
+  left: -70px;
+  height: 20px;
+  background-color: none; 
+  color: #2b7a78; 
+}
+.button8:hover {
+  background-color: #f58f7c;
 }
 /*END BOARD*/
 
