@@ -15,9 +15,37 @@ background-color: #3aafa9;
 background-color: grey;
  margin: auto;
    
-/*  animation: fadein  10s ease-in;*/
+  animation: fadein  10s ease-in;
   /*animation-fill-mode: forwards;*/
 }
+/*START RAIN*/
+.drop {
+  position: fixed;
+}
+.layer1 {
+  width: 2px;
+  height: 10px;
+  background-color: #fff;
+  animation: rain 1s infinite linear;
+}
+.layer2 {
+  width: 2px;
+  height: 4px;
+  background-color: #ccc;
+  animation: rain .75s infinite linear;
+}
+.layer3 {
+  width: 1px;
+  height: 6px;
+  background-color: #aaa;
+  animation: myanim 1s infinite linear;
+}
+@keyframes rain {
+  from { top: 0; }
+  to   { top: 1000px; }
+}
+/*END RAIN*/
+
 /*INDEXPAGE*/
 .title{
     position: relative;
@@ -28,20 +56,17 @@ top: 400px;
   font-size: 200px;
   font-family:FuturaPT, sans-serif ;
   color: white;
-
 }
 
-
+/*CLOUDS*/
 .cloud {
   position: absolute;
-
   animation: float 7s ease-in-out infinite;
   animation-direction: alternate;
   background-color: #f58f7c;
   top: -100px;
   left: 200px;
 }
-
 .cloud2 {
   position: absolute;
   animation: float 13s ease-in-out infinite;
@@ -49,11 +74,15 @@ top: 400px;
   background-color: #f58f7c;
   top: 0px;
   left: 800px;
-
-
-
 }
-
+.cloud3 {
+  position: absolute;
+  animation: float 6s ease-in-out infinite;
+  animation-direction: alternate; 
+  background-color: #f58f7c;
+  top: 200px;
+  left: 800px;
+}
 .curve {
   background-color: #f58f7c;
   position: absolute;
@@ -61,10 +90,9 @@ top: 400px;
 }
 
 .curve:hover{
-
   background-color: white;
+  animation: rain infinite;
 }
-
 .top1{
   width: 80px;
   height: 80px;
@@ -74,7 +102,6 @@ top: 400px;
   margin-top: 200px;
   margin-left: 420px;
 }
-
 .top2 {
   width: 150px;
   height: 150px;
@@ -83,7 +110,6 @@ top: 400px;
   margin-top: 130px;
   margin-left: 450px;
 }
-
 .top3 {
   width: 160px;
   height: 140px;
@@ -102,6 +128,7 @@ top: 400px;
   margin-top: 200px;
   margin-left: 630px;
 }
+/*END CLOUDS*/
 
 /*ANIMATION*/
 @keyframes fadeout{
