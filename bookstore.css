@@ -17,7 +17,7 @@ img{
   margin: auto;
   background-image: url(https://i.imgur.com/zsrpyVw.png);
   background-size: 900px 1200px;
-  
+
 }
 .button {
   position: relative;
@@ -54,8 +54,8 @@ img{
   color: #f58f7c;
 }
 .button3 {
-  top: -265px;
-  left: 0px;
+  top: 400px;
+  left: 50px;
   background-color: none; 
   color: #17252a;  
 }
