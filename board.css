@@ -6,22 +6,77 @@
 body{
   height: 100%;
   font-family: 'Roboto Slab', serif;
-  
-   
+  background-color: #3aafa9;
 }
-
+img {
+  width: 55%;
+  height: 30%;
+}
 .content{
-  max-width: 700px;
+  max-width: 1000px;
+  height: 1300px;
   margin: auto;
   background-color: #def2f1;
-  border:  20px solid #def2f1;
+  border:  20px solid #17252a;
   color: #2b7a78;
+  background-image: url(https://i.imgur.com/GzPTpAl.png);
+  background-size: 1000px 1300px;
+}
+.inspector{
+  position: relative;
+  top: 300px;
+  left: 200px;
 }
 
 #draggable { 
-  width: 150px; 
-  height: 150px; 
+  width: 400px; 
+  height: 400px; 
   padding: 0.5em; 
-  background-color: pink;
-  top: 100px;
+  background-image: url(https://i.redd.it/x9et426u0pp51.jpg);
+  background-size: 400px 400px;
+  top: -200px;
+  left: 500px;
+}
+#draggable2 { 
+  width: 500px; 
+  height: 600px; 
+  padding: 0.5em; 
+  background-image: url(https://rollingrobots.com/sites/default/files/student_portfolio/Sarah%20A/popcat.jpg);
+  background-size: 500px 600px;
+  top: -400px;
+  left: 80px;
+}
+#draggable3 { 
+  width: 300px; 
+  height: 400px; 
+  padding: 0.5em; 
+  background-image: url(https://i.imgur.com/Ow34tOz.png);
+  background-size: 300px 400px;
+  top: -600px;
+  left: 500px;
+}
+
+.button {
+  position: relative;
+  border: none;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+  font-family: nimbus-sans, sans-serif;
+  font-size: 18px; 
+}
+/*START FLAGS*/
+.button1 {
+ 
+  background-color: none; 
+  color: #f58f7c; 
+}
+.button1:hover {
+  background-color: #f58f7c;
+  color: #def2f1;
 }
