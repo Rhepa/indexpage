@@ -18,3 +18,10 @@ body{
   color: #2b7a78;
 }
 
+#draggable { 
+  width: 150px; 
+  height: 150px; 
+  padding: 0.5em; 
+  background-color: pink;
+  top: 100px;
+}
