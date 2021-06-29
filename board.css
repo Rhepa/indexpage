@@ -5,7 +5,6 @@
 
 body{
   height: 100%;
-  font-family: 'Roboto Slab', serif;
   background-color: #3aafa9;
 }
 img {
@@ -13,7 +12,7 @@ img {
   height: 30%;
 }
 .content{
-  max-width: 1000px;
+  width: 1000px;
   height: 1300px;
   margin: auto;
   background-color: #def2f1;
